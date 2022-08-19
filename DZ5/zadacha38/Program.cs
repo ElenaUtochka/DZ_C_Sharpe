@@ -23,7 +23,7 @@ int[] GetArray(int count)
     int[] result = new int[count];
     for (int i = 0; i < count; i++)
     {
-        result[i] = new Random().Next(1, 100);
+        result[i] = new Random().Next(-99, 100);
     }
     return result;
 }
