@@ -7,9 +7,11 @@
 Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3. */
 using static System.Console;
 Clear();
-/* int countRows = 3;
-int countColumns = 4; */
-int[,] array = CreateMatrix(3, 4);
+
+int countRows = 3;
+int countColumns = 4; 
+
+int[,] array = CreateMatrix(countRows, countColumns);
 PrintMatrix(array);
 FindArithmeticMean(array);
 
