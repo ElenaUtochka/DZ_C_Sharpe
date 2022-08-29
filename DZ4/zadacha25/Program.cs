@@ -7,7 +7,7 @@ using static System.Console;
 Clear();
 
 WriteLine("Введите числа через пробел ");
-int[] array = GetArrayFromString(ReadLine());
+int[] array = GetArrayFromString(ReadLine()!);
 WriteLine($"{array[0]} в степени {array[1]} равно {GetPower(array)}");
 
 

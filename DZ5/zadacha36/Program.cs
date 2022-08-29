@@ -7,7 +7,7 @@ using static System.Console;
 Clear();
 
 WriteLine("Задайте размер массива ");
-int ArrayCount = int.Parse(ReadLine());
+int ArrayCount = int.Parse(ReadLine()!);
 int[] Array= GetArray(ArrayCount);
 WriteLine($"{String.Join(" ", Array)}");
 WriteLine($"Сумма элементов, стоящих на нечетных позициях {GetSum(Array)}");

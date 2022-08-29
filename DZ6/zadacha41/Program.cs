@@ -7,7 +7,7 @@ using static System.Console;
 using System.Linq;
 Clear();
 WriteLine("Введите числа через пробел: ");
-int[] array = ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).ToArray();
+int[] array = ReadLine()!.Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).ToArray();
 WriteLine(String.Join(" ", array));
 WriteLine($"Чисел больше нуля: {CountPositive(array)}");
 
@@ -23,7 +23,7 @@ int CountPositive(int[] mass)
         int count = 0;
         for (int i = 0; i < mass.Length; i++)
         {
-            count = mass[i] > 0 ? count + 1 : count + 0;
+            count += mass[i] > 0 ? 1 : 0;
         }
         return count;
     }

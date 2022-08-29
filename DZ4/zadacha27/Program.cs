@@ -9,7 +9,7 @@
 using static System.Console;
 Clear();
 WriteLine("Введите число ");
-int number = int.Parse(ReadLine());
+int number = int.Parse(ReadLine()!);
 int[] NewArray = GetArray(number);
 Write($"Сумма цифр в числе {number} равна {SumArray(NewArray)}");
 

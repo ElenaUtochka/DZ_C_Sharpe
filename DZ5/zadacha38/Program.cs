@@ -6,7 +6,7 @@
 using static System.Console;
 Clear();
 WriteLine("Задайте размер массива вещественных чисел ");
-int countArray = int.Parse(ReadLine());
+int countArray = int.Parse(ReadLine()!);
 int[] Array = GetArray(countArray);
 WriteLine($"{String.Join(" ", Array)}");
 WriteLine($"Разница между максимальным {GetMax(Array)} и минимальным {GetMin(Array)} элементами массива равна {GetDifference(GetMax(Array),GetMin(Array))}");

@@ -6,13 +6,13 @@ b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5) */
 using static System.Console;
 Clear();
 WriteLine("Введите значение b1");
-int b1 = int.Parse(ReadLine());
+int b1 = int.Parse(ReadLine()!);
 WriteLine("Введите значение k1");
-int k1 = int.Parse(ReadLine());
+int k1 = int.Parse(ReadLine()!);
 WriteLine("Введите значение b2");
-int b2 = int.Parse(ReadLine());
+int b2 = int.Parse(ReadLine()!);
 WriteLine("Введите значение k2");
-int k2 = int.Parse(ReadLine());
+int k2 = int.Parse(ReadLine()!);
 WriteLine($"Прямые, заданные уравнениями у={k1}*x+{b1} и y={k2}*x+{b2}, пересекаются в точке с координатами [{String.Join(";", GetDote(b1, k1, b2, k2))}]");
 
 

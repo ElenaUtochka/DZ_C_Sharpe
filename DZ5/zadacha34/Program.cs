@@ -6,7 +6,7 @@ using static System.Console;
 Clear();
 
 WriteLine("Задайте размер массива ");
-int ArrayCount=int.Parse(ReadLine());
+int ArrayCount=int.Parse(ReadLine()!);
 int[] Array = GetArray(ArrayCount);
 WriteLine($"{String.Join(" ", Array)}");
 WriteLine($"Количество четных чисел в массиве {GetPositiveCount(Array)}");
