@@ -62,7 +62,7 @@ void FindMinElementsMatrix(int[] matrixForSearcheMinimumElement)
         if (minElement > matrixForSearcheMinimumElement[j])
         {
             minElement = matrixForSearcheMinimumElement[j];
-            minElementIndex = (j + 1);
+            minElementIndex = Convert.ToString(j + 1);
         }
         else
         {
