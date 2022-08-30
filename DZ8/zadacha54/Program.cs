@@ -39,7 +39,7 @@ void SortMatrix(int[,] matrixForSort)
         {
             for (int k = j + 1; k < matrixForSort.GetLength(1); k++)
             {
-                if (matrixForSort[i,j] < matrixForSort[i,k])
+                if (matrixForSort[i, j] < matrixForSort[i, k])
                 {
                     int temp = matrixForSort[i, j];
                     matrixForSort[i, j] = matrixForSort[i, k];

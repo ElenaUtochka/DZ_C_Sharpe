@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMetods", "MyMetods\MyMeto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadacha54", "zadacha54\zadacha54.csproj", "{FE127233-1058-41BE-A1B8-548030007B0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadacha56", "zadacha56\zadacha56.csproj", "{19861EB7-2B57-4EDC-9618-671BF50075C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FE127233-1058-41BE-A1B8-548030007B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE127233-1058-41BE-A1B8-548030007B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE127233-1058-41BE-A1B8-548030007B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19861EB7-2B57-4EDC-9618-671BF50075C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19861EB7-2B57-4EDC-9618-671BF50075C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19861EB7-2B57-4EDC-9618-671BF50075C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19861EB7-2B57-4EDC-9618-671BF50075C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
