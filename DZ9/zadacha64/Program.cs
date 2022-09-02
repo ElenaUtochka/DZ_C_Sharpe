@@ -9,14 +9,14 @@ WriteLine("Введите число M");
 int numM = int.Parse(ReadLine()!);
 WriteLine("Введите число N");
 int numN = int.Parse(ReadLine()!);
-WriteLine(Stringofnumbers(numM,numN));
+WriteLine(Stringofnumbers(numM, numN));
 
 
 
 string Stringofnumbers(int number1, int number2)
 {
-    if(number1==number2) return $"{number1}";
-    else if(number1>number2) return $"{number1} {Stringofnumbers(number2, number1-1)}";
-    else return $"{number2} {Stringofnumbers(number1, number2-1)}";
-    
+    if (number1 == number2) return $"{number1}";
+    else if (number1 > number2) return $"{number1} {Stringofnumbers(number2, number1 - 1)}";
+    else return $"{number2} {Stringofnumbers(number1, number2 - 1)}";
+
 }
